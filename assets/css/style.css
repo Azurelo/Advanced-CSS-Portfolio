@@ -1,26 +1,75 @@
+:root{
+    --backgroundNav: rgb(55, 56, 63);
+    --colorNav: rgb(159, 200, 216);
+}
+
 body{
     background: rgb(229, 239, 240);
     margin: 0;
     padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 header{
     width: 100%;
-    background-color: gray;
-    color:black;
 }
 ul{
     list-style-type: none;
     margin:0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(71, 73, 83);
+    background-color: var(--backgroundNav);
 }
 li{
     font-size: 1.5rem;
     padding: 10px;
     display: inline;
     float: right;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: var(--colorNav);
 }
-.nav-right{
+/* Just some test code to try an exactly replicate mock-up */
+/* li::after, ::after{
+    content: ".";
+    color:transparent;
+    text-decoration: underline;
+} */
 
+.nav-left{
+    text-decoration: none;
+    float:left;
+    color: var(--backgroundNav);
+    background-color: var(--colorNav);
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-top: 5px;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.backPhoto{
+    width: 100%;
+    height: 200px;
+    background-image: url(Images/wooden.avif);
+}
+@media screen and (max-width: 610px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li{
+        font-size: 30px;
+        padding: 5px;
+    }
+    .nav-left{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
