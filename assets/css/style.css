@@ -1,0 +1,26 @@
+body{
+    background: rgb(229, 239, 240);
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: gray;
+    color:black;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(71, 73, 83);
+}
+li{
+    font-size: 1.5rem;
+    padding: 10px;
+    display: inline;
+    float: right;
+}
+.nav-right{
+
+}
