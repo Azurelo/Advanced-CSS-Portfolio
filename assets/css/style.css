@@ -1,0 +1,139 @@
+:root{
+    --backgroundNav: rgb(55, 56, 63);
+    --colorNav: rgb(159, 200, 216);
+    --mainColor: #405788;
+}
+
+body{
+    background: rgb(242, 238, 255);
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--backgroundNav);
+    padding-right: 5%;
+}
+li{
+    font-size: 1.5rem;
+    padding: 10px;
+    display: inline;
+    float: right;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: var(--colorNav);
+}
+/* Just some test code to try an exactly replicate mock-up */
+/* li::before, ::after{
+    content: ".";
+    color:transparent;
+    text-decoration: underline;
+} */
+
+.nav-left{
+    text-decoration: none;
+    float:left;
+    color: var(--backgroundNav);
+    background-color: var(--colorNav);
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-top: 5px;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.myPic{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.backPhoto{
+    width: 100%;
+    height: 200px;
+    background-image: url(Images/wooden.avif);
+    position: relative;
+}
+
+.photoEasterEgg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorNav);
+    color: var(--colorNav);
+    width: 200px;
+    height: 35px;;
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+/* First Effect I learned in CSS! */
+.photoEasterEgg:hover{
+    color: var(--backgroundNav);
+}
+
+.flexContain{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexContain > section{
+    display: flex;
+}
+
+.a{
+    display: flex;
+    justify-content: flex-end;
+    width:20%;
+    border-right: 3px solid var(--mainColor);
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 3rem;
+    color: var(--mainColor);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+}
+
+.b{
+    padding:5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:66%;
+    font-size: large;
+    color: var(--mainColor);
+}
+
+@media screen and (max-width: 640px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li{
+        font-size: 30px;
+        padding: 5px;
+    }
+    .nav-left{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
