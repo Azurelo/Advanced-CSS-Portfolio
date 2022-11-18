@@ -3,7 +3,10 @@
     --colorNav: rgb(159, 200, 216);
     --mainColor: #405788;
 }
-
+a{
+    text-decoration: none;
+    color: var(--colorNav);
+}
 body{
     background: rgb(242, 238, 255);
     margin: 0;
@@ -116,6 +119,25 @@ li{
     font-size: large;
     color: var(--mainColor);
 }
+
+.grid-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+}
+
+img{
+    max-width: 300px;
+}
+.gridImages{
+
+}
+.grid-item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
 
 /* .grid{
     grid-template-columns: ;
