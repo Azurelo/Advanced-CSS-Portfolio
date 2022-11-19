@@ -40,17 +40,6 @@ li{
     text-decoration-thickness: 2px;
     color: var(--colorNav);
 }
-/* Just some test code to try an exactly replicate mock-up */
-/* li::before, ::after{
-    content: ".";
-    color:transparent;
-    text-decoration: underline;
-} */
-
-/* text going off page */
-
-/* anchor messing up sizing */
-
 /* tags for images 
 .tag{
     width: 25%
@@ -58,8 +47,6 @@ li{
     background: color var(--navBlue)
     color: black
     */
-
-
 
 .nav-left{
     text-decoration: none;
@@ -139,10 +126,6 @@ li{
     width:65%;
     font-size: large;
     color: var(--mainColor);
-}
-
-.grid-display{
-
 }
 
 .flex{
