@@ -11,7 +11,7 @@ user friendly website that organizes my projects.
 ## Link
 
 ## Snapshots
-
+![Screenshot_20221119_110359](https://user-images.githubusercontent.com/114710827/202865155-e545770f-0f0c-4003-92c8-770666bcb865.png)
 ## Usage
 
 This website can be used to see information about Justus Schoppmann's personal projects. The items listed in the header can be clicked on to navigate down the page where more information for each item is given.
