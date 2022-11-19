@@ -9,6 +9,7 @@ user friendly website that organizes my projects.
 - I learned how to better use HTML and CSS.
 
 ## Link
+https://azurelo.github.io/Advanced-CSS-Portfolio/
 
 ## Snapshots
 ![Screenshot_20221119_110359](https://user-images.githubusercontent.com/114710827/202865155-e545770f-0f0c-4003-92c8-770666bcb865.png)
@@ -21,6 +22,4 @@ This website can be used to see information about Justus Schoppmann's personal p
 Refer to the LICENSE in rep.
 
 ---
-
-## Link
 
